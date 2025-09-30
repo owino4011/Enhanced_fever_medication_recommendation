@@ -1,36 +1,35 @@
-# Ignore Python cache and compiled files
+# Ignore Python cache and environment files
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-
-# Ignore virtual environment folders
-.venv/
-venv/
 env/
+venv/
+.venv/
+ENV/
+.env/
+*.env
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore datasets (raw and processed)
-data/raw/
-data/processed/
-
-# Ignore trained models and artifacts
-models/
-*.pkl
-*.joblib
-*.h5
-
-# Ignore log files and temp files
-logs/
+# Ignore logs and temporary files
 *.log
 *.tmp
+*.bak
+
+# Ignore trained models and artifacts, but allow fever_model.pkl
+models/*
+!models/fever_model.pkl
+*.joblib
+*.h5
 
 # Ignore system files
 .DS_Store
 Thumbs.db
 
-# Ignore VS Code and PyCharm project files
-.vscode/
-.idea/
+# Ignore other package and distribution files
+dist/
+build/
+*.egg-info/
+
