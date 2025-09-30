@@ -1,3 +1,4 @@
+
 # Ignore Python cache and environment files
 __pycache__/
 *.py[cod]
@@ -33,3 +34,7 @@ dist/
 build/
 *.egg-info/
 
+# Ignore data by default, but keep raw dataset
+data/*
+!data/raw/
+!data/raw/data.csv
