@@ -1,0 +1,2 @@
+[console_scripts]
+fever-pipeline = main:run_all

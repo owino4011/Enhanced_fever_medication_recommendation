@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: enhanced_fever_medication_recommendation_system
+Version: 1.0.0
+Summary: An end-to-end ML pipeline for fever medication recommendation (Paracetamol vs Ibuprofen).
+Author: Oscar Owino
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: joblib
+Requires-Dist: streamlit
+Requires-Dist: pyyaml
+Requires-Dist: imbalanced_learn
+Requires-Dist: streamlit
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
